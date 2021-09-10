@@ -6,7 +6,7 @@ nav{
 }
 
 nav>.logo{
-	flex:start;width:100px;
+	flex:auto;width:100px;
 	background-color:#ffcccc;
 }
 nav>.menu{
