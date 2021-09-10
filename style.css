@@ -19,26 +19,25 @@ nav>.user{
 }
 
 /* main style setting */
-
 main{ /* Container */
-	display:flex;flex-wrap:wrap;
-	justify-content:center; /* also try: flex-end,center, stretch(default setting) */
+	display:flex;flex-wrap:wrap;/* also try: flex-end,center, stretch(default setting) */
+	justify-content:center; 
 	background-color:#cccccc;
 }
-main>.item{ /* Item */i
-	flex:none;  /*none = the item s fixed */
-	width:270px;margin:10px;
-	background-color:#fefbfb;
+main>.item { /* Item */
+flex:none;
+width:270px;margin:10px;
+background-color:#fefbfb;
 }
 
-@media screen (max-width:1200px) {
+@media (max-width:1200px){
 	main>.item{
 		width:45%;
 	}	
 }
 
-@media screen (max-width:500px) {
+@media (max-width:500px){
 	main>.item{
 		width:90%;
-	}	
+	}
 }
