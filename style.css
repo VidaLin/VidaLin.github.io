@@ -21,14 +21,24 @@ nav>.user{
 /* main style setting */
 
 main{ /* Container */
-	display:flex;
+	display:flex;flex-wrap:wrap;
 	justify-content:center; /* also try: flex-end,center, stretch(default setting) */
-	align-items:flex-start;
 	background-color:#cccccc;
 }
-main>.item{ /* Item */
-	flex:center;  /*none = the item is fixed */
-	width:300px;margin:10px;
+main>.item{ /* Item */i
+	flex:none;  /*none = the item s fixed */
+	width:270px;margin:10px;
 	background-color:#fefbfb;
 }
 
+@media screen (max-width:1200px) {
+	main>.item{
+		width:45%;
+	}	
+}
+
+@media screen (max-width:500px) {
+	main>.item{
+		width:90%;
+	}	
+}
