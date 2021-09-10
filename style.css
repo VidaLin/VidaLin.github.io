@@ -29,6 +29,6 @@ main{ /* Container */
 main>.item{ /* Item */
 	flex:center;  /*none = the item is fixed */
 	width:300px;margin:10px;
-	background-color:#ffcccc;
+	background-color:#fefbfb;
 }
 
