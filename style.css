@@ -10,7 +10,7 @@ nav>.logo{
 	background-color:#ffcccc;
 }
 nav>.menu{
-	flex:auto;width:300px;height:300px;
+	flex:auto;width:100px;
 	background-color:#ccccff;
 }
 nav>.user{
