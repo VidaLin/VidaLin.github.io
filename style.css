@@ -28,7 +28,7 @@ main{ /* Container */
 	background-color:#cccccc;
 }
 main>.item{ /* Item */
-	flex:none;  /*none = the item is fixed */
+	flex:center;  /*none = the item is fixed */
 	width:300px;margin:10px;
 	background-color:#ffcccc;
 }
