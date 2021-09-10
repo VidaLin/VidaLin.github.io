@@ -2,7 +2,7 @@ body{margin:0px;}
 
 /* navigator, nav style setting */
 nav{
-    display: flex;
+	display: flex;
 }
 
 nav>.logo{
@@ -10,7 +10,7 @@ nav>.logo{
 	background-color:#ffcccc;
 }
 nav>.menu{
-	flex:auto;width:100px;
+	flex:auto;
 	background-color:#ccccff;
 }
 nav>.user{
@@ -22,9 +22,8 @@ nav>.user{
 
 main{ /* Container */
 	display:flex;
-    justify-content:center;
-    /* also try: flex-end,center, stretch(default setting) */
-    align-items:flex-start;
+	justify-content:center; /* also try: flex-end,center, stretch(default setting) */
+	align-items:flex-start;
 	background-color:#cccccc;
 }
 main>.item{ /* Item */
